@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Temperature Converter tool" />
+    <meta name="keywords" content="meter, inch, feet, feet converter" />
+
+    <title>Temperature Converter tool - Celsius to Kelvin, Newton and Fahrenheit</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="converterBox">
+      
+      <div class="firstDiv">
+        <h1>Temperature converter</h1>
+        <form>
+          <label for="firstName"> Insert value: </label>
+          <input id="degrees" type="text" placeholder="'C" />
+        </form>
+
+        <button id="convert" type="button" name="button">Convert</button>
+      </div>
+
+      <div class="secondDiv result">
+        <h2 id="temperatureInKelvin"></h2>
+        <h2 id="temperatureInFahrenheit"></h2>
+        <h2 id="temperatureInNewton"></h2>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
