@@ -30,7 +30,7 @@ form {
   color: white;
 }
 
-section {
+.converterBox {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,9 +38,9 @@ section {
   border: 2px solid #dadada;
   border-radius: 7px;
   box-shadow: 0 0 50px 15px #48abe0;
-  width: 500px;
+  max-width: 500px;
   height: 500px;
-  margin: 10% auto;
+  margin: 5rem auto;
 }
 
 .firstDiv {
@@ -67,6 +67,7 @@ input {
   margin: 20px auto 20px auto;
   text-align: center;
   padding: 5px 5px;
+  border-radius: 5px;
 }
 
 input:focus {
@@ -82,6 +83,7 @@ button {
   background: #064663;
   color: white;
   border: solid 1px #064663;
+  border-radius: 16px;
   padding: 5px 10px;
   font-size: 1.2rem;
   margin: 0 35%;
