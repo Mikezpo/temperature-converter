@@ -3,3 +3,92 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background: #182747;
+}
+
+h1 {
+  font-size: 1.8rem;
+  display: block;
+  color: #064663;
+  text-align: center;
+  padding: 30px 0 0 0;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin: 0 20px;
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+}
+
+form {
+  font-size: 1.4rem;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #647e68;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  box-shadow: 0 0 50px 15px #48abe0;
+  width: 500px;
+  height: 500px;
+  margin: 10% auto;
+}
+
+.firstDiv {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondDiv {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: inline-block;
+  width: 100px;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background: #064663;
+  color: white;
+  border: solid 1px #064663;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  margin: 0 35%;
+}
+
+button:hover {
+  background: white;
+  color: #064663;
+  box-shadow: 0 0 10px #9ecaed;
+}
