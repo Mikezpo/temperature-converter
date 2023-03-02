@@ -14,7 +14,8 @@ This project was built using the following technologies:
 
 
 ## Future plans for this project
-I intend to invest more time in this project in the near future in order to add better UI and UX, and more functionality.
+I intend to invest more time in this project in the near future in order to add better UI and UX, and more functionality. One of the features I plan to add is different conversion tools within the same application, in which the user may use accordingly to its needs.
+
 
 
 ## Contact Me
